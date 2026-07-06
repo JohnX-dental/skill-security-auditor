@@ -1,0 +1,6 @@
+interface:
+  display_name: "Skill 安全审计"
+  short_description: "安装前静态审查外部 Skill、插件、脚本和配置风险"
+  default_prompt: "Use $skill-security-auditor to review an external Skill folder before installation."
+policy:
+  allow_implicit_invocation: true
